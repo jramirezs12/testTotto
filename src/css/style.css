@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Ajustamos el cuerpo como una columna flex */
+  min-height: 100vh; /* Aseguramos que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+}
+
+header {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header .header-left img {
+  max-height: 50px;
+}
+header .header-right button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.banner {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+}
+.banner h1 {
+  margin: 5px;
+  font-size: 12px;
+}
+.banner h1 span {
+  color: #ffd523;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+}
+form h1 {
+  text-align: center;
+  display: block;
+  margin: 20px 0 20px 0;
+  font-size: 23px;
+  line-height: 22px;
+}
+form input {
+  border: 1px solid #d6d6d6;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.help-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  /* Flexbox para que el footer quede pegado abajo */
+  margin-top: auto; /* Añadimos un margen superior auto para empujar el footer hacia abajo */
+}
+footer .column {
+  flex: 1;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

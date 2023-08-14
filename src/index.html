@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Sass</title>
+    <link rel="stylesheet" href="css/style.css">  <!-- Cambiar el enlace al archivo style.css -->
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="totto-logo.png" alt="Logo"> <!-- Reemplaza 'ruta/al/logo.png' con la ruta real de tu logo -->
+        </div>
+        <div class="header-right">
+            <button>Mis pedidos</button>
+            <button>Carrito</button>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>< <span>Nueva</span> colección Disney Pets ></h2>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <form action="guardar_datos.php" method="post">
+            <h1 for="email">Ingresa tu correo para validarte en nuestra base de datos y continuar con el proceso:</h1>
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="help-info">Aquí va la información de ayuda</p>
+    </section>
+
+    <footer>
+        <div class="column">
+            <p>Texto 1</p>
+        </div>
+        <div class="column">
+            <p>Texto 2</p>
+        </div>
+        <div class="column">
+            <p>Texto 3</p>
+        </div>
+        <div class="column">
+            <p>Texto 4</p>
+        </div>
+    </footer>
+
+</body>
+</html>
